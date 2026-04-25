@@ -27,7 +27,7 @@ We introduce **OV-USIS**, a benchmark for open-vocabulary salient instance segme
 
 ## More Visualizations
 
-![visualization](figs/more_visual.png)
+![visualization](figs/more_visual.pdf)
 
 ---
 
