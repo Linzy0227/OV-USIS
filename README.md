@@ -65,7 +65,7 @@ sh download.sh
 
 ### Prepare the dataset
 
-Download from [Google Drive](https://drive.google.com/file/d/14tbW3Ie8MfVjQy9DJKXnFlJ_g-6Z6xcX/view) and organize as follows:
+Download the [images](https://drive.google.com/file/d/14tbW3Ie8MfVjQy9DJKXnFlJ_g-6Z6xcX/view) and [annotations](https://drive.google.com/file/d/1D5sao2j9zQo-3qpfZu4y8fLqOY5vQinr/view?usp=drive_link), then organize them as follows:
 
 ```text
 dataset/
