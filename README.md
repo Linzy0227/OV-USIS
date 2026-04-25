@@ -17,6 +17,9 @@
 </div>
 
 ---
+## Code Availability
+
+The complete code, trained models, and evaluation scripts will be publicly released upon paper acceptance.
 
 ## Overview
 We introduce **OV-USIS**, a benchmark for open-vocabulary salient instance segmentation in underwater scenes.
