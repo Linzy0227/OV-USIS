@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Beyond Seen Categories</h1>
+<h1>Beyond Konwn Categories</h1>
 <h3>Open-Vocabulary Salient Instance Segmentation for Underwater Scenes</h3>
 
 <br/>
