@@ -26,6 +26,12 @@ We introduce **OV-USIS**, a benchmark for open-vocabulary salient instance segme
 ---
 
 
+## More Visualizations
+
+![visualization](figs/visual.jpg)
+
+---
+
 ## 🛠 Installation
 
 ### 1. Create the environment
