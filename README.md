@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Beyond Konwn Categories</h1>
+<h1>Beyond Known Categories</h1>
 <h3>Open-Vocabulary Salient Instance Segmentation for Underwater Scenes</h3>
 
 <br/>
@@ -17,9 +17,6 @@
 </div>
 
 ---
-## Code Availability
-
-The complete code, trained models, and evaluation scripts will be publicly released upon paper acceptance.
 
 ## Overview
 We introduce **OV-USIS**, a benchmark for open-vocabulary salient instance segmentation in underwater scenes.
@@ -28,11 +25,6 @@ We introduce **OV-USIS**, a benchmark for open-vocabulary salient instance segme
 
 ---
 
-## More Visualizations
-
-![visualization](figs/visual.jpg)
-
----
 
 ## 🛠 Installation
 
@@ -41,7 +33,7 @@ We introduce **OV-USIS**, a benchmark for open-vocabulary salient instance segme
 ```bash
 conda env create -f environment_ovs.yml
 conda activate ovs
-python -m pip install -e detectron2
+python -m pip install --no-build-isolation -e detectron2
 ```
 
 ### 2. Compile MSDeformAttn
@@ -68,7 +60,8 @@ sh download.sh
 
 ### Prepare the dataset
 
-Download the [images](https://drive.google.com/file/d/14tbW3Ie8MfVjQy9DJKXnFlJ_g-6Z6xcX/view) and [annotations](https://drive.google.com/file/d/1D5sao2j9zQo-3qpfZu4y8fLqOY5vQinr/view?usp=drive_link), then organize them as follows:
+Annotations are included under `dataset/annotations/`. Download the [images](https://drive.google.com/file/d/14tbW3Ie8MfVjQy9DJKXnFlJ_g-6Z6xcX/view) and place them in the following directories:
+
 
 ```text
 dataset/
@@ -78,13 +71,22 @@ dataset/
     ├── instances_train.json
     └── instances_val.json
 ```
+
+Place the dataset in this project's `dataset/` directory as shown above.
+
+Setting **A** trains on `train` (83 categories) and evaluates on `val` (115
+categories). Setting **B** reverses these splits.
+
 ### Train
 
 ```bash
 sh train.sh
 ```
 
-> Adjust batch size and learning rate in the config when scaling across multiple GPUs.
+Edit `train.sh` to choose the GPUs, GPU count, and configuration.
+
+Adjust batch size and learning rate in the config when scaling across multiple
+GPUs. See [GETTING_STARTED.md](GETTING_STARTED.md) for all configurations.
 
 ### Evaluate
 
@@ -92,14 +94,19 @@ sh train.sh
 sh test.sh
 ```
 
+Edit `test.sh` to choose the GPU, configuration, and checkpoint path.
+
 ### Compute metrics
 
-After evaluation, copy the result table from the log into the corresponding result file, then run:
+The included `results.txt` contains a per-category segmentation AP table.
+Use the matching dataset setting when aggregating it, or replace it with your
+own evaluation table and pass its filename with `--results`.
 
 ```bash
-python calculate_metrics_a.py
-python calculate_metrics_b.py
+python calculate_metrics.py --split a --results results.txt
 ```
+
+Reports AP, AP50, and AP75 for shared, unseen, and all evaluation categories.
 
 ---
 
@@ -119,7 +126,7 @@ If OV-USIS helps your research, please consider citing:
 
 ```bibtex
 @article{ovusis,
-  title   = {Beyond Seen Categories: Exploring Open-Vocabulary Salient Instance Segmentation for Underwater Scenes},
+  title   = {Beyond Known Categories: Exploring Open-Vocabulary Salient Instance Segmentation for Underwater Scenes},
   author  = {},
   journal = {},
   year    = {}

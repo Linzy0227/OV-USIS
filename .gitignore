@@ -1,0 +1,40 @@
+# Data, weights and experiment outputs are downloaded/generated locally.
+/dataset/*
+!/dataset/annotations/
+!/dataset/train/
+!/dataset/val/
+/dataset/train/*
+!/dataset/train/.gitkeep
+/dataset/val/*
+!/dataset/val/.gitkeep
+/pretrained/
+/output/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Python and native build products.
+__pycache__/
+*.py[cod]
+*.so
+*.o
+*.a
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local editor settings.
+.vscode/
+.idea/
+.codex
+.DS_Store
+
+# Keep the selected result table; other outputs stay local.
+/results*.txt
+!/results.txt
+*.bin
+*.log
