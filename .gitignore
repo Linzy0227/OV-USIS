@@ -1,6 +1,8 @@
 # Data, weights and experiment outputs are downloaded/generated locally.
 /dataset/*
 !/dataset/annotations/
+!/dataset/ov_usis_b_categories.txt
+!/dataset/ov_usis_a_categories.txt
 !/dataset/train/
 !/dataset/val/
 /dataset/train/*

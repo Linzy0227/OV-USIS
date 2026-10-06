@@ -1,0 +1,173 @@
+# OV-USIS setting B
+
+[seen]
+Diver
+Swimmer
+Geoduck
+Linckia Laevigata
+Whale Shark
+Hammerhead Shark
+Moray Eel
+Lionfish
+Trumpetfish
+Enoplosus Armatus
+Red Sea Bannerfish
+Blue Parrotfish
+Giant Wrasse
+Bluecheek Butterflyfish
+Threadfin Butterflyfish
+Giant Clams
+Nautilus
+Triton's Trumpet
+Squid
+Moon Jellyfish
+Fried Egg Jellyfish
+Fan Coral
+Elkhorn Coral
+Brain Coral
+Sea Urchin
+Oreaster Reticulatus
+Protoreaster Nodosus
+Manatee
+Sea Lion
+Dolphin
+Walrus
+Dugong
+Turtle
+Snake
+Plastic Bag
+Shipwreck
+Wrecked Aircraft
+Statue
+Remotely Operated Vehicle (ROV)
+Propeller
+
+[unseen]
+Manta Ray
+Bullhead Shark
+Orbicular Batfish
+Mola
+Moorish Idol
+Bicolor Angelfish
+Heniochus Varius
+Twin-spot Goby
+Stoplight Parrotfish
+Lunar Fusilier
+Red Sea Clownfish
+Spotted Wrasse
+Anampses Twistii
+Potato Grouper
+Graysby
+Anyperodon Leucogrammicus
+Whitespotted Surgeonfish
+Regal Blue Tang
+Lined Surgeonfish
+Achilles Tang
+Saddle Butterflyfish
+Mirror Butterflyfish
+Scallop
+Common Octopus
+Cuttlefish
+Sea Anemone
+Lion's Mane Jellyfish
+Sea Cucumber
+Crinoid
+Spiny Lobster
+Common Prawn
+Mantis Shrimp
+King Crab
+Cancer Pagurus
+Can
+Gun
+Phone
+Coin
+Autonomous Underwater Vehicle (AUV)
+Personal Submarines
+Ship Sacrificial Anode
+Overboard Valve
+Pipeline Sacrificial Anode
+
+[all]
+Diver
+Swimmer
+Geoduck
+Linckia Laevigata
+Manta Ray
+Bullhead Shark
+Whale Shark
+Hammerhead Shark
+Moray Eel
+Orbicular Batfish
+Lionfish
+Trumpetfish
+Enoplosus Armatus
+Mola
+Moorish Idol
+Bicolor Angelfish
+Red Sea Bannerfish
+Heniochus Varius
+Twin-spot Goby
+Blue Parrotfish
+Stoplight Parrotfish
+Lunar Fusilier
+Red Sea Clownfish
+Giant Wrasse
+Spotted Wrasse
+Anampses Twistii
+Potato Grouper
+Graysby
+Anyperodon Leucogrammicus
+Whitespotted Surgeonfish
+Regal Blue Tang
+Lined Surgeonfish
+Achilles Tang
+Saddle Butterflyfish
+Mirror Butterflyfish
+Bluecheek Butterflyfish
+Threadfin Butterflyfish
+Giant Clams
+Scallop
+Nautilus
+Triton's Trumpet
+Common Octopus
+Squid
+Cuttlefish
+Sea Anemone
+Lion's Mane Jellyfish
+Moon Jellyfish
+Fried Egg Jellyfish
+Fan Coral
+Elkhorn Coral
+Brain Coral
+Sea Urchin
+Sea Cucumber
+Crinoid
+Oreaster Reticulatus
+Protoreaster Nodosus
+Manatee
+Sea Lion
+Dolphin
+Walrus
+Dugong
+Turtle
+Snake
+Spiny Lobster
+Common Prawn
+Mantis Shrimp
+King Crab
+Cancer Pagurus
+Plastic Bag
+Can
+Shipwreck
+Wrecked Aircraft
+Gun
+Phone
+Coin
+Statue
+Autonomous Underwater Vehicle (AUV)
+Remotely Operated Vehicle (ROV)
+Personal Submarines
+Ship Sacrificial Anode
+Overboard Valve
+Propeller
+Pipeline Sacrificial Anode
